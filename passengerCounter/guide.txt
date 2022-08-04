@@ -1,0 +1,6 @@
+// TRAIN PASSENGER COUNTER //
+
+There are people entering to the subway...
+You have to count and save them by days.
+Different days different scenery.
+When the week finishes you must reset the saved content.
