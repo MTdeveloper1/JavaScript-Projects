@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(0, 0, 197);
+}
+header img {
+    width: 80px;
+    margin: 10px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(0, 0, 197);
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 17px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+nav a img {
+    width: 30px;
+    margin: 0;
+}
+
+.bars {
+    display: none;
+}
+
+
+
+
+@media (max-width: 735px) {
+    .bars {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        margin-right: 30px;
+    }
+    .barsContainer {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+    .show {
+        transform: translate(0px, 210px);
+        /* display: none; */
+    }
+    nav {
+        flex-direction: column;
+    }
+}
