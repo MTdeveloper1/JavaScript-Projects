@@ -62,8 +62,7 @@ nav a img {
         justify-content: end;
     }
     .show {
-        transform: translate(0px, 210px);
-        /* display: none; */
+        display: none;
     }
     nav {
         flex-direction: column;
