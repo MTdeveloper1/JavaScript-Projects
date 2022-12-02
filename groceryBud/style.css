@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+.mainContainer {
+    margin-top: 5vh;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(155, 155, 155) 1px 1px 20px 5px;
+}
+.item {
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 3px solid rgb(87, 87, 231);
+}
+.item img {
+    width: 20px;
+}
+.item button {
+    background-color: transparent;
+    border: transparent;
+}
+.changeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.clearContainer {
+    display: flex;
+    justify-content: center;
+}
+#clearBtn {
+    margin-top: 40px;
+    width: 120px;
+    padding: 10px 5px;
+    border-radius: 100px;
+    border: transparent;
+    color: red;
+}
+#clearBtn:hover, .item button:hover {
+    cursor: pointer;
+}
+#clearBtn:hover {
+    transition: .5s;
+    box-shadow: rgb(199, 199, 199) 1px 1px 7px 3px;
+}
+.titleContainer, form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input {
+    border: none;
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+   }
+   
+input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+           inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+   }
+
+form button {
+    margin-left: 15px;
+    padding: .4em 1em;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+form button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  
+form button:active {
+    transform: translateY(-1px);
+  }
